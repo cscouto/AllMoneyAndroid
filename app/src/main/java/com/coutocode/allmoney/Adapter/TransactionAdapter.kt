@@ -3,6 +3,7 @@ package com.coutocode.allmoney.Adapter
 import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.view.ViewGroup
+import com.coutocode.allmoney.Model.Transaction
 
 /**
  * Created by docouto on 1/14/18.
@@ -22,6 +23,8 @@ class TransactionAdapter: RecyclerView.Adapter<TransactionAdapter.TransactionVie
     }
 
     class TransactionViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
+        fun bind(transaction: Transaction) {
 
+        }
     }
 }
