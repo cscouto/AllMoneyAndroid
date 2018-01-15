@@ -1,7 +1,8 @@
-package com.coutocode.allmoney
+package com.coutocode.allmoney.Activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.coutocode.allmoney.R
 
 class MainActivity : AppCompatActivity() {
 
